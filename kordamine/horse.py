@@ -42,7 +42,7 @@ def check_winner(): #defineerib võitmis funktsiooni
         return "Blue Horse" #sinine hobune
     if red_horse_x >= 550: #kui punane hobune jõuab 550
         return "Red Horse" #punane hobune
-    return False 
+    return False
 
 
 main_screen = Tk()
@@ -55,8 +55,8 @@ canvas = Canvas(main_screen,width=600,height=200,bg="white")
 canvas.pack(pady=20)
 
 
-red_horse_img = PhotoImage(file="./images/red-horse.png") #laeb hobuse pildi
-blue_horse_img = PhotoImage(file="./images/blue-horse.png") #laeb hobuse pildi
+red_horse_img = PhotoImage(file="red-horse.png") #laeb hobuse pildi
+blue_horse_img = PhotoImage(file="blue-horse.png") #laeb hobuse pildi
 
 
 red_horse_img = red_horse_img.zoom(15)
