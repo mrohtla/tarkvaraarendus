@@ -10,10 +10,10 @@ def download_files(url): #defineerib funktsiooni
                 f.write(chunk)
     f.close() #sulgeb faili
     print("Download complete") #väljastab teksti
-    print("File saved as "+ local_filename)
+    print("File saved as "+ local_filename) #tekst + failinimi
 
 while 1: #loop
     print("Welcome to the image downloader") #väljastab teksti
-    image_url = input(str("Image url : "))
+    image_url = input(str("Image url : ")) #pildi url'i sisestus
     download_files(image_url)
     print("")
