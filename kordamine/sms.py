@@ -17,7 +17,7 @@ headers = {
 payload = {
     "from":from_,
     "to":[to_],
-    "body":"Kaupole meeldivad friikad"
+    "body":"ee"
 }
 
 response = r.post(
